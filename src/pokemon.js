@@ -176,9 +176,7 @@ function PokemonForm({
           value={pokemonName}
           onChange={handleChange}
         />
-        <button type="submit" disabled={!pokemonName.length}>
-          Submit
-        </button>
+        <button type="submit">Submit</button>
       </div>
     </form>
   )
